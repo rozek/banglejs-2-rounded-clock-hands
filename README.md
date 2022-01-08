@@ -1,2 +1,3 @@
-# banglejs-2-rounded-clock-hands
- draws still simple, but rounded, hands for an analog clock on the Bangle.js 2
+# banglejs-2-rounded-clock-hands #
+
+draws still simple, yet rounded, hands for an analog clock on a Bangle.js 2
