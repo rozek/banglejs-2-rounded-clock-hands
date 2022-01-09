@@ -84,7 +84,7 @@
     g.fillPoly(transformedPolygon);
 
     if (Seconds != null) {
-      g.setColor(Settings.Seconds === 'Theme' ? g.theme.fgH : Settings.Seconds || '#FF0000');
+      g.setColor(Settings.Seconds === 'Theme' ? g.theme.fgH : Settings.Seconds || '#FFFF00');
 
       let SecondsAngle = (Seconds/60) * twoPi - Pi;
 
