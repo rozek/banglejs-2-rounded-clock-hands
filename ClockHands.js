@@ -97,14 +97,14 @@
         CenterX - SecondHandLength*sPhi,
         CenterY + SecondHandLength*cPhi
       );
-
-      g.setColor(Settings.Foreground === 'Theme' ? g.theme.fg : Settings.Foreground || '#000000');
-      g.fillCircle(CenterX,CenterY, outerBoltRadius);
-
-      g.setColor(Settings.Background === 'Theme' ? g.theme.bg : Settings.Background || '#FFFFFF');
-      g.drawCircle(CenterX,CenterY, outerBoltRadius);
-      g.fillCircle(CenterX,CenterY, innerBoltRadius);
     }
+
+    g.setColor(Settings.Foreground === 'Theme' ? g.theme.fg : Settings.Foreground || '#000000');
+    g.fillCircle(CenterX,CenterY, outerBoltRadius);
+
+    g.setColor(Settings.Background === 'Theme' ? g.theme.bg : Settings.Background || '#FFFFFF');
+    g.drawCircle(CenterX,CenterY, outerBoltRadius);
+    g.fillCircle(CenterX,CenterY, innerBoltRadius);
   };
 })();
 
