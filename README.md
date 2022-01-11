@@ -2,7 +2,7 @@
 
 draws still simple, yet rounded, hands for an analog clock on a Bangle.js 2
 
-This module draws some rounded hands for an analog clock running on a [Bangle.js 2](https://www.espruino.com/Bangle.js2).
+This module draws some rounded hands (with a small bolt in the center) for an analog clock running on a [Bangle.js 2](https://www.espruino.com/Bangle.js2).
 
 ![](Demo.png)
 
