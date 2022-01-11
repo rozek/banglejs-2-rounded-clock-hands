@@ -20,7 +20,7 @@ Clockwork.windUp({
 
 ## Example ##
 
-The following code shows a complete example for a (still simple) analog clock using this clock face:
+The following code shows a complete example for a (still simple) analog clock using these clock hands:
 
 ```
 let Clockwork = require('https://raw.githubusercontent.com/rozek/banglejs-2-simple-clockwork/main/Clockwork.js');
